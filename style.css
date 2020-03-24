@@ -1,0 +1,111 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	width: 60%;
+	margin: auto;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+header
+{
+	width: auto;
+	height: 100px;
+	background-color: #66BB6A;
+	text-align: center;
+	min-width: 350px;
+	font-size: 40px;
+	font-weight: bold;
+	color:#FDD835;
+}
+
+
+.logo
+{
+	padding-top:30px; 
+	padding-bottom:30px;
+}
+
+.search
+{
+	background-color: #E0E0E0;
+	width: auto;
+	height: 50px;
+	margin-bottom: 35px;
+	min-width: 350px;
+}
+
+
+img
+{
+	width: 350px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.3)
+
+}
+
+
+
+.menu
+{
+	display: flex;
+	align-items: baseline;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+
+
+.next
+{
+	width: 250px;
+	margin: auto;
+	padding: 10px 30px 10px 30px; 
+	border-radius: 10px;
+	text-align: center;
+	background-color: #66BB6A;
+	margin-top: 35px; 
+	margin-bottom:35px;
+	font-size: 30px;
+	color: #FDD835;
+}
+
+footer
+{
+	width: auto;
+	height: 50px;
+	background-color: #66BB6A;
+	display: flex;
+	min-width: 350px;
+}
+
+.mention
+{
+	
+	width: 1000px; 
+	margin-left: 15px;
+	margin-right: 15px;
+	align-items: center;
+
+}
+
+.legal
+{
+	position: absolute;
+	padding-top: 15px;
+	color: #FDD835;
+	font-size: 25px;
+}
+.contact
+{
+	position: relative;
+	float: right; 
+	padding-top: 15px;
+	color: #FDD835;
+	font-size: 25px;
+}
