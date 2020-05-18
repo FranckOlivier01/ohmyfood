@@ -2,92 +2,437 @@
 {
 	margin:0;
 	padding:0;
+	box-sizing: border-box;
 }
 
 body
 {
-	width: 60%;
-	margin: auto;
 	font-family: 'Poppins', sans-serif;
-
+	padding-bottom: 50px;
 }
 
 header
 {
+	display: flex;
 	width: auto;
-	height: 100px;
-	background-color: #66BB6A;
+	height: 150px;
+	background-color: #579C87;
+	justify-content: center;
 	text-align: center;
 	min-width: 350px;
-	font-size: 40px;
 	font-weight: bold;
-	color:#FDD835;
+	color:#FDCB46;
 }
-
 
 .logo
 {
 	padding-top:30px; 
 	padding-bottom:30px;
+	font-size: 60px;
+	color:#FDCB46;
 }
 
-.search
+.logo-one
 {
-	background-color: #E0E0E0;
-	width: auto;
-	height: 50px;
-	margin-bottom: 35px;
-	min-width: 350px;
+	text-decoration: none;
 }
 
+.menu1
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 70px;
+	text-align: center;
+}
+
+
+article
+{
+	height: 500px;
+	width: 350px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.3);
+
+}
+
+
+article>a
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	text-decoration: none;
+	transform: scale(1);
+	transition-property: transform;
+	transition-duration: 500ms;
+}
+
+article>a:hover
+{
+	opacity:0.4;
+	transform: scale(1.15);
+	
+}
+
+
+.sous-menu
+{
+	width: 350px;
+	height: 500px;
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1)
+}
+
+
+.sous-menu1
+{
+	background-color:#FCDFDB;
+	font-family: 'ma shan zheng', cursive;
+}
+
+.sous-menu2
+{
+	background-color:#FFF5FE;
+	font-family: 'Katibeh', cursive;
+}
+
+.sous-menu3
+{
+	background-color:#F9F9F9;
+	font-family: 'Dancing Script', cursive;
+
+}
+
+.sous-menu4
+{
+	background-color:#FDFFFD;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.delice, .gout
+{
+	font-family: 'Caveat', cursive;
+}
+
+.lanote
+{
+	color: #3C1218;
+	font-size: 40px;
+}
 
 img
 {
-	width: 350px;
-	box-shadow: 10px 10px 10px rgba(0,0,0,0.3)
+	width: 100px;
 
 }
 
+.image-note
+{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.musicnote
+{
+	width: 50px;
+	margin: auto;
+}
+
+.music-note
+{
+	width: 50px;
+	height: 75px;
+	padding-top: 25px;
+}
+
+
+.note
+{
+	font-family: 'Gaegu', cursive;
+	color: #3C1218;
+	font-size: 35px; 
+
+}
+
+.bottom
+{
+	display: flex;
+	justify-content: center;
+}
+
+.lechic1
+{
+	background: linear-gradient(to right, #D8852E, #905BFD);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 40px;
+}
+
+.middlechic
+{
+	background: linear-gradient(to right, #D8852E, #905BFD);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 40px;
+}
+
+.firstpart
+{
+	color: #C67412;
+}
+
+.secondpart
+{
+	color: #A56799;
+}
+
+.thirdpart
+{
+	color: #6E4CCC;
+}
+
+
+.chic
+{
+	color: #D8852E;
+	font-size: 50px;
+}
+
+.delice 
+{
+	color: #0887FB
+}
+
+.ledelice1
+{
+	background: linear-gradient(to right, #022DDF, #0887FB);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 40px;
+}
+
+
+.middledelice
+{
+	background: linear-gradient(to right, #022DDF, #0889FB);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+}
+
+.gout
+{
+	color: #72BF56
+}
+
+.lapalette1
+{
+	background: linear-gradient(to right, #3D9339, #BFFF7E);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 40px;
+}
+
+.middlepalette
+{
+	background: linear-gradient(to right, #3D9339, #BFFF7E);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: 'Kaushan Script', cursive;
+	font-size:40px;
+}
+
+
+
+.chic, .delice, .gout
+{
+
+	font-size: 50px;
+}
 
 
 .menu
 {
-	display: flex;
-	align-items: baseline;
-	justify-content: space-around;
-	flex-wrap: wrap;
-
+	width: 60%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: 'Caveat', cursive;
+	
 }
 
+.menunote
+{
+	background-color: #FCDFDB;
+	color: #3C1218;
+}
+
+.middlenote
+{
+	font-family: 'ma shan zheng', cursive;
+	font-size:xx-large;
+}
+
+.menuchic
+{
+	font-family: 'Katibeh', cursive;
+	background-color:#FFF5FE;
+}
+
+.menudelice
+{
+	background-color:#F9F9F9;
+}
+
+.menupalette
+{
+	background-color:#FDFFFD;
+}
+
+
+.middle
+{
+	text-align: center;
+	padding: 25px;
+}
+
+.surligne
+{
+	display: inline-block;
+
+	/*position: relative;
+	border-bottom: 3px solid #3C1218;
+	transition: border-bottom 1s linear;
+	border-bottom: 0;*/
+}
+.surligne::after
+{
+	content: '';
+	width: 0;
+	height: 3px;
+	display: block;
+	background: #3C1218;
+	transition: 700ms ease;
+}
+
+.surligne:hover:after
+{
+	width: 100%;
+}
+
+
+.line
+{
+	position: relative;
+}
+
+.line::before
+{
+	content: '';
+	position: absolute;
+	border:3px solid black;
+	left:0px;
+	top:33px;
+	width: 25%;
+	
+}
+
+.line::after
+{
+	content: '';
+	position: absolute;
+	border:3px solid black;
+	right:00px;
+	top:33px;
+	width: 25%;
+}
+
+
+.price
+{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+.comingsoon
+{
+	width: 300px;
+	margin: auto;
+}
 
 
 .next
 {
-	width: 250px;
-	margin: auto;
+	
 	padding: 10px 30px 10px 30px; 
 	border-radius: 10px;
 	text-align: center;
-	background-color: #66BB6A;
-	margin-top: 35px; 
+	background-color: #579C87;
+	margin-top: 40px; 
 	margin-bottom:35px;
-	font-size: 30px;
-	color: #FDD835;
+	font-size: 25px;
+	color: #FDCB46;
+
+}
+
+.next-one
+{
+	text-decoration: none;
+}
+
+.loading span
+{
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin: 0 3px;
+  background-color: #FDCB46;
+  display: inline-block;
+  animation-name: dots;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.loading span:nth-child(2)
+{
+  animation-delay: 0.4s;
+}
+
+.loading span:nth-child(3)
+{
+  animation-delay: 0.8s;
+}
+
+@keyframes dots {
+  50%{
+    opacity: 0;
+    transform: scale(0.7) translateY(10px);
+  }
 }
 
 footer
 {
-	width: auto;
-	height: 50px;
-	background-color: #66BB6A;
+	background-color: #579C87;
 	display: flex;
-	min-width: 350px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	bottom: 0;
+
 }
 
 .mention
 {
 	
-	width: 1000px; 
+	width: 100%;
 	margin-left: 15px;
 	margin-right: 15px;
 	align-items: center;
@@ -97,15 +442,84 @@ footer
 .legal
 {
 	position: absolute;
-	padding-top: 15px;
-	color: #FDD835;
+	padding: 10px;
+	color: #FDCB46;
 	font-size: 25px;
 }
+
+.legal:hover
+{
+  animation: shake 0.8s infinite;
+}
+
+@keyframes shake
+{
+  0%{
+    transform: translate(0px,0px) rotate(0deg);
+  }
+  25%{
+    transform: translate(1px,1px) rotate(1deg);
+  }
+  50%{
+    transform: translate(-1px,-1px) rotate(-1deg);
+  }
+  75%{
+    transform: translate(2px,-1px) rotate(2deg);
+  }
+  100%{
+    transform: translate(-1px,1px) rotate(-1deg);
+  }
+}
+
 .contact
 {
 	position: relative;
-	float: right; 
-	padding-top: 15px;
-	color: #FDD835;
+	float:right; 
+	padding: 10px; 
+	color: #FDCB46;
 	font-size: 25px;
+}
+
+.contact:hover
+{
+  animation: shake 0.8s infinite;
+}
+
+@keyframes shake
+{
+  0%{
+    transform: translate(0px,0px) rotate(0deg);
+  }
+  25%{
+    transform: translate(1px,1px) rotate(1deg);
+  }
+  50%{
+    transform: translate(-1px,-1px) rotate(-1deg);
+  }
+  75%{
+    transform: translate(2px,-1px) rotate(2deg);
+  }
+  100%{
+    transform: translate(-1px,1px) rotate(-1deg);
+  }
+}
+
+@media screen and (max-width: 750px) 
+{
+	.menu1
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.menu2
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.menu, .sous-menu2, .sous-menu4
+	{
+		margin-top: 70px;
+	}
 }
