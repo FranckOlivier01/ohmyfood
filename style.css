@@ -525,8 +525,7 @@ img
 {
 	content: '';
 	position: absolute;
-	border:3px solid;
-	background: linear-gradient(to right, #3D9339, #BFFF7E);
+	border:3px solid #41963C;
 	left:0px;
 	top:40px;
 	width: 25%;
