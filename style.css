@@ -24,6 +24,10 @@ header
 	color:#FDCB46;
 }
 
+a
+{
+	text-decoration: none;
+}
 .logo
 {
 	padding-top:30px; 
@@ -760,7 +764,25 @@ footer
 	{
 		display: flex;
 	/*	flex-direction: column;*/
-		justify-content: center;
-
+		justify-content: space-around;
+		flex-wrap: wrap;
+		padding-top: 5px;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		align-items: center; 
 	}
-}
+	.contact
+	{
+		position: static;
+		float: none;
+		padding: 0;
+	}
+
+	.legal
+	{
+		position: static;
+		padding:0; 
+	}
+
+}	
