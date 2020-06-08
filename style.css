@@ -785,4 +785,45 @@ footer
 		padding:0; 
 	}
 
+	.line::before
+	{
+	content: none;
+	}
+
+	.line::after
+	{
+	content: none;
+	}
+
+	.line_chic_top::before, .line_chic_middle::before, .line_chic_bottom::before
+	{
+	content: none;
+	}
+
+	.line_chic_top::after, .line_chic_middle::after, .line_chic_bottom::after
+	{
+	content: none;
+	}
+
+	.line_delice_top::before, .line_delice_middle::before, .line_delice_bottom::before
+	{
+	content: none;
+	}
+
+	.line_delice_top::after, .line_delice_middle::after, .line_delice_bottom::after
+	{
+	content: none;
+	}
+
+	.line_palette::before
+	{
+	content: none;
+	}
+
+	.line_palette::after
+	{
+	content: none;
+	}
+
+	
 }	
